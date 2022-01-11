@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class= "container">
+    <!-- upload NFTs -->
+    <h2>Upload Image</h2>
+    
+    
+    <label>Name : </label>
+    <input type = "text" id = "name_for_nft"/><br/><br/>
+    
+    <label> Price : </label>
+    <input  type = "number" id = "price" /><br/><br/>
+    
+    <input type = "file"  id = "myImage" /><br/><br/>
+    
+    <input type = "button" class="btn btn-primary" value = " upload image" id = "upload_img_button" /><br/>
+        <br/><br/>
+
+
+     <hr/>   
+    
+    <!-- <img src="" id = "img" height="450px" width="450px" /> 
+
+    <p id = "displayPrice"></p>
+    <p id = "hash" ></p>
+    <input type="button" value = "buy" onclick= "buyNft()">
+     -->
+    <!-- <p id = "price1"></p>
+    <img src="" id = "img2" width = "500px" height="500px"/>
+    <p id = "price2"></p>
+    <img src="" id = "img3" width = "500px" height="500px"/>
+    <p id = "price3"></p>
+    <img src="" id = "img4" width = "500px" height="500px"/>
+    <p id = "price4"></p> -->
+
+    <!-- <input type= "button" value = "Total Supply" onclick="totalSupply()" />
+    <p id = "totalsupply"> </p> -->
+
+    <!-- <input type= "button" value = "Get Symbol" onclick="symbol()" /> <br/>
+    <p id = "symbol"> </p>
+      -->
+    <input type = "text" id = "id_for_uri"  placeholder = " Enter Id " />
+    <input type= "button" value = "getTokenURI" onclick = "getTokenURI()" />
+    <br/>
+    <br/>
+    
+    <a id = "url" > click here </a> 
+    
+    <br/>
+    <br/>
+    
+    <input type = "text" id = "to_address" placeholder = "to address" /> <br/>
+    <input type = "text" id = "hash_to_mint"  placeholder = " Enter hash : " /> <br/>
+    <input type = "button" value = "Mint" onclick = "mintToken()" />
+    
+      <!-- display  NFT -->
+
+    <div id = "displayNFT"  class="card-group">
+    </div>
+</div>
+
+
+
+    
+
+
+    
+   <!-- Latest compiled and minified JavaScript -->
+    
+   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src = "./web3.min.js"></script>
+    <script src = "./index.js"></script>
+    
+</body>
+</html>
+
